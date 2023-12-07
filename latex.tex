@@ -1,0 +1,123 @@
+\documentclass[15pt]{beamer}
+\title{MICROCOMPUTER SWITCH CONTROLLER  }
+\subtitle{Batch-52 }
+\author{
+P.SYAMYA          : 21B01A12E0 -   IT\\
+CH.PUJA HARSHITHA : 21B01A0205 - EEE\\
+J.HARI KEERTHI    :21B01A1260   -    IT\\
+Y.VASANTHI   : 21B01A54C8 -     AIDS\\
+P.MADHU SAHITHI : 21B01A12D9 -  IT\\ }
+
+\institute{\textbf{SVECW}}
+
+\date{25/03/2023 }
+\usefonttheme{serif}
+\usepackage{bookman}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usecolortheme{orchid}
+\beamertemplateballitem
+
+% set colors
+\definecolor{myNewColorA}{RGB}{126,12,110}
+\definecolor{myNewColorB}{RGB}{165,85,154}
+\definecolor{myNewColorC}{RGB}{203,158,197}
+\setbeamercolor*{palette primary}{bg=myNewColorC}
+\setbeamercolor*{palette secondary}{bg=myNewColorB, fg = white}
+\setbeamercolor*{palette tertiary}{bg=myNewColorA, fg = white}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg = white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
+\usefonttheme{professionalfonts}
+\usepackage{natbib}
+\usepackage{hyperref}
+\begin{document}
+    \begin{frame}
+        \titlepage
+    \end{frame}
+    \begin{frame}
+	\frametitle{INTRODUCTION ABOUT THIS PROJECT :- }
+ Our program is to control the states of switches it
+should be able to command any switch to be
+turned on/off,query the state of any or all switches
+based on specified conditions like time,previous
+states.The input comes from data cards with key words
+TIME, ON, OFF, ?, ALL, AT and stop.Time is simulated
+through input(4 digits and 24 hour form)
+    \end{frame}
+    
+   
+   
+\begin{frame}{APPROACH :-}
+	\frametitle{Approach}
+	\begin{itemize}
+ \item {As the problem is multi-conditional with multiple test cases, we break the problem into smaller parts and solve them one by one(USING FUNCTIONS)}
+\item {We identify the conditions and control flow of the program to better understand the logic and structure
+}
+\item {We test the individual parts and the whole code with boundary inputs to detected the accuracy of code}
+	
+	\end{itemize}
+    \end{frame}
+    
+\begin{frame}{LEARNINGS :-}
+\begin{itemize}
+    \item \textbf{TEAM WORK}
+   \item\textbf{GIT}
+   \item\textbf{LaTex}
+    \item\textbf{PROBLEM SOLVING SKILLS}
+\end{itemize}
+    
+\end{frame}
+
+ 
+\begin{frame}{CHALLENGES :-}
+\begin{itemize}
+
+\item {Due to multiple conditions we faced difficulty in identifying the control flow.}
+\item {We overcame them by breaking the problem into multiple parts and solving them.}
+\item {We faced difficulty in finding the right data structure to store the previous scheduling switches.}
+\item {By identifying the properties needed for data structure like generating key value pairs.}
+\end{itemize}
+
+\end{frame}
+\begin{frame}{STATISTICS :-}
+
+\begin{itemize}
+
+\item{ Our python code has overall 48 lines.
+\item The code has 4 user defined functions.\\
+They are:}
+
+\item{switch\_on(index)}
+\item{switch\_off(index)}
+\item{schedule\_switch(index, action, hour)}
+\item{sense\_state(z)}
+\end{itemize}
+
+\end{frame}
+
+\section{DEMO}
+\begin{frame}{PROGRAM:}
+\includegraphics[width=1.0\textwidth]{program1.png}
+
+\end{frame}
+
+\begin{frame}{PROGRAM:}
+\includegraphics[width=1.0\textwidth]{program2.png}
+
+\end{frame}
+
+\begin{frame}{OUTPUT:}
+\includegraphics[width=0.8\textwidth]{output.png}
+
+\end{frame}
+
+\section*{}
+\begin{frame}
+\textcolor{myNewColorA}{\Huge{\centerline{Thank you!}}}
+\end{frame}
+\end{document}
+
